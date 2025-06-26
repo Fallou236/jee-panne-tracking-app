@@ -1,0 +1,20 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.2">
+    <persistence-unit name="demojpa-pu">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>sn.uasz.l2i.models.User</class>
+        <class>sn.uasz.l2i.models.Equipement</class>
+        <class>sn.uasz.l2i.models.Panne</class>
+        <class>sn.uasz.l2i.models.Intervention</class>
+        <!-- Ajoutez ici les autres entités si nécessaire -->
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/tracking_db"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value=""/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>

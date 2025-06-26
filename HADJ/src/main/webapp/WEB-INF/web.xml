@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UserHomeServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.UserHomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserHomeServlet</servlet-name>
+        <url-pattern>/UserHome</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>UsersServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.UsersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UsersServlet</servlet-name>
+        <url-pattern>/users</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddUserServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.AddUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUserServlet</servlet-name>
+        <url-pattern>/addUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.UpdateUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <url-pattern>/UpdateUserServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.DeleteUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <url-pattern>/deleteUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TechniciensServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.TechniciensServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TechniciensServlet</servlet-name>
+        <url-pattern>/techniciens</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddTechnicienServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.AddTechnicienServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddTechnicienServlet</servlet-name>
+        <url-pattern>/addTech</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteTechnicienServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.DeleteTechnicienServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteTechnicienServlet</servlet-name>
+        <url-pattern>/deleteTechnicien</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateTechnicienServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.UpdateTechnicienServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateTechnicienServlet</servlet-name>
+        <url-pattern>/updateTechnicien</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ReportPanneServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.ReportPanneServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReportPanneServlet</servlet-name>
+        <url-pattern>/ReportPanneServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ConfirmInterventionServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.ConfirmInterventionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConfirmInterventionServlet</servlet-name>
+        <url-pattern>/ConfirmInterventionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ManageInterventionServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.ManageInterventionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageInterventionServlet</servlet-name>
+        <url-pattern>/ManageInterventionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReparerPanneServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.ReparerPanneServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReparerPanneServlet</servlet-name>
+        <url-pattern>/ReparerPanne</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CloseSignalPanneServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.CloseSignalPanneServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CloseSignalPanneServlet</servlet-name>
+        <url-pattern>/CloseSignalPanneServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ConfirmReparationByUserServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.ConfirmReparationByUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConfirmReparationByUserServlet</servlet-name>
+        <url-pattern>/ConfirmReparationByUserServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetEtatEquipmentServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.GetEtatEquipmentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetEtatEquipmentServlet</servlet-name>
+        <url-pattern>/GetEtatEquipmentServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TerminedInterventionServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.TerminedInterventionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TerminedInterventionServlet</servlet-name>
+        <url-pattern>/TerminedInterventionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChefHomeServlet</servlet-name>
+        <servlet-class>sn.uasz.l2i.servlets.ChefHomeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChefHomeServlet</servlet-name>
+        <url-pattern>/chefHome</url-pattern>
+    </servlet-mapping>
+
+</web-app>
