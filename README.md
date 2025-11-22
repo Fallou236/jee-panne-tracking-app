@@ -79,7 +79,7 @@ Develop a web-based system to manage **failures of IT equipment** used within As
 
 ## 🏅 Note obtenue / Grade Received
 
-  > ✅ **18 / 20**  
+  > ✅ **17 / 20**  
   > (Travail complet, bien structuré, respect des principes objets et bonne interface Utilisateur)
 
 > Ce projet a été développé dans un contexte académique pour renforcer nos compétences en Java EE, architecture MVC et développement web d’entreprise.
